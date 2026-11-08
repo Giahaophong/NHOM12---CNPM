@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Đăng nhập - Thuyết Minh Tự Động</title>
+
+    <link rel="stylesheet" href="Dangnhap.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box">
+            <!-- LOGO -->
+            <div class="logo">
+                🌐
+            </div>
+
+            <!-- TIÊU ĐỀ -->
+            <h1>Thuyết Minh Tự Động</h1>
+
+            <p class="subtitle">
+                Khám phá Việt Nam – Đa ngôn ngữ
+            </p>
+
+            <h2>Đăng nhập</h2>
+
+            <!-- TÀI KHOẢN -->
+            <div class="input-group">
+                <label for="username">
+                    Tài khoản
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Nhập tài khoản"
+                    autocomplete="username">
+            </div>
+
+            <!-- MẬT KHẨU -->
+            <div class="input-group">
+                <label for="password">
+                    Mật khẩu
+                </label>
+
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Nhập mật khẩu"
+                        autocomplete="current-password">
+
+                    <button
+                        type="button"
+                        id="showPassword"
+                        class="show-password">
+                        👁
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- GHI NHỚ -->
+            <div class="remember">
+                <label>
+                    <input type="checkbox" id="remember">
+                    Ghi nhớ đăng nhập
+                </label>
+            </div>
+
+            <!-- THÔNG BÁO -->
+            <p id="message" class="message"></p>
+
+            <!-- NÚT ĐĂNG NHẬP -->
+            <button
+                type="button"
+                id="loginButton"
+                class="login-button">
+                Đăng nhập
+            </button>
+
+            <p class="footer-text">
+                © 2026 Thuyết Minh Tự Động Đa Ngôn Ngữ
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="Dangnhap.js"></script>
+
+</body>
+</html>
